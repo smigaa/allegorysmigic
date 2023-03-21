@@ -85,6 +85,11 @@ h1{
 	text-align:center;
 	color:#751975
 }
+h2 ,h3{
+	color:#751975;
+	font-size:2em;
+	
+}
 /* MAIN */
 /* INTRO */
 .main {
@@ -150,13 +155,14 @@ h1{
 	animation-duration:1.5s;
 	
 }
-.galleryh1 h1::after {
+.galleryh1 h2::after {
 	width:60%;
     content: "";
     display: block;
     margin: 0 auto;
     height: 1px;
     background-color: #751975;
+
 }
 #gallery {
 	display:flex;
@@ -264,7 +270,7 @@ label,b{
 	text-align:center;	
 	background-color:var(--zelena);
 }
-/* About us */
+/* ABOUT US */
 .us {
   display: flex;
   flex-wrap:wrap;
@@ -279,7 +285,7 @@ label,b{
 	flex:100%;	
 	height:auto;
 }
-.main p{
+.main p,.headline{
 	
 	animation-duration:1.5s;
 	animation-name:fadeInMiddle;
@@ -291,7 +297,7 @@ label,b{
 }
 
 
-#introduction h1::after{
+#introduction h2::after ,.galleryh1 h2::after, h3::after{
 	width:60%;
     content: "";
     display: block;
@@ -299,6 +305,7 @@ label,b{
     height: 1px;
     background-color: #751975;
 }
+
 .camera{
 	flex:45%;
 	padding:10px 0px
