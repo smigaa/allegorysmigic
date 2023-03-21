@@ -30,7 +30,7 @@ a:hover{
 	color:#000;
 }
 .active{
-	color:#000;
+    color: #751975;
 	
 }
 span{
@@ -186,14 +186,15 @@ h1{
 	background-position: center;
 	background-size: cover;
 	position: relative;
-	background-color: #fcf9ec96;
+	
 	background-attachment:fixed;
+	margin-top:80px;
 
 }
 #container{
 	position:absolute;
 	height:60%;
-	margin:11.25% 25%;
+	margin: 7.9% 29%;
 	box-sizing:border-box;
     padding: 20px;
 	border-radius:10px;	
@@ -217,9 +218,11 @@ label,b{
 		background-color:#f8fcec00;	
 }
 #button01{
-	width:40%;
+	width:90%;
 	color: #000;
 	transition:0.5s;
+	cursor:pointer;
+	margin:4.6%;
 }
 #button01:hover{
 	transform:scale(1.04);
