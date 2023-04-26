@@ -177,6 +177,7 @@ nav ul li:last-of-type
 	align-items:center;
 	height:300px;
 	background-color:var(--zelena);
+	border-bottom: 1px #003300 solid;
 	
 	
 	
@@ -284,7 +285,9 @@ footer .zmdi:hover{
 #introduction{
 	flex:100%;	
 	height:auto;
-	background-color:var(--zelena)
+	background-color:var(--zelena);
+	border-bottom: 1px #003300 solid;
+	
 }
 .main p{
 	
@@ -295,16 +298,6 @@ footer .zmdi:hover{
 	float:left;
 	height:500px;
 	margin-left:20%;
-}
-
-
-#introduction h1::after{
-	width:60%;
-    content: "";
-    display: block;
-    margin: 0 auto;
-    height: 1px;
-    background-color: #751975;
 }
 .camera{
 	flex:45%;
@@ -393,7 +386,7 @@ footer .zmdi:hover{
  
 }
 .offers .zmdi{
-	font-size:26pt;
+	font-size:30pt;
 	color: var(--tamna);
 	
 	
@@ -445,6 +438,11 @@ h1, h2, h3 {
 }
 .offers:hover a{
 	color:#000;
+	
+}
+.offers:hover strong{
+	
+	color:var(--tamna);
 	
 }
 table {
@@ -514,4 +512,16 @@ iframe{
 	height:40%;
  width:80%;
 
+}
+#what{
+	background-color:var(--zelena)
+}
+#work strong{color:var(--tamna)}
+#what h1::after{
+		width:90%;
+    content: "";
+    display: block;
+    margin: 0 auto;
+    height: 1px;
+    background-color:var(--tamna);
 }
