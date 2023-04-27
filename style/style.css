@@ -288,6 +288,7 @@ footer .zmdi:hover{
 	height:auto;
 	background-color:var(--zelena);
 	border-bottom: 1px #003300 solid;
+	padding:0px;
 	
 }
 .main p{
